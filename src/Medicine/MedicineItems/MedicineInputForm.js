@@ -20,7 +20,7 @@ const MedicineInputForm = (props) => {
           defaultValue: "1",
         }}
       />
-      <button>+ ADD</button>
+      <button>ADD To Cart</button>
       {/* {!quantityIsValid && <p>please enter a valid quantity</p>} */}
     </form>
   );

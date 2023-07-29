@@ -9,6 +9,9 @@ const MedicineItems = (props) => {
         <h3>{props.name}</h3>
         <div className={classes.description}>{props.description}</div>
         <div className={classes.price}>RS {props.price}</div>
+        <div className={classes.quantity}>
+          Available Quantity:{props.quantity}
+        </div>
       </div>
       <div>
         <MedicineInputForm />

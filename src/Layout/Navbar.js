@@ -6,7 +6,7 @@ const Navbar = (props) => {
     <>
       <header className={classes.header}>
         <h1>Medicine</h1>
-        <CartButton onClick={props.onShown} />
+        <CartButton onClick={props.onShow} />
       </header>
     </>
   );
