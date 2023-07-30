@@ -28,7 +28,9 @@ const CartPortal = (props) => {
       ))}
     </ul>
   );
-
+  const PrintHandler = () => {
+    console.log("printing...");
+  };
   return (
     <Modal onClose={props.onClose}>
       {cartItems}
@@ -40,7 +42,11 @@ const CartPortal = (props) => {
         <button className={classes["button--alt"]} onClick={props.onClose}>
           Close
         </button>
-        {hasItems && <button className={classes.button}>Print</button>}
+        {hasItems && (
+          <button className={classes.button} onClick={PrintHandler}>
+            Print
+          </button>
+        )}
       </div>
     </Modal>
   );
