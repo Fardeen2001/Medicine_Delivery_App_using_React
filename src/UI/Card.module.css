@@ -8,5 +8,6 @@
 @media screen and (max-width: 650px) {
   .card {
     margin-top: 15%;
+    overflow-x: auto;
   }
 }
