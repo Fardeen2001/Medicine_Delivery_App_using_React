@@ -1,4 +1,4 @@
-import React, { useContext, useState, useRef } from "react";
+import React, { useContext, useState } from "react";
 import classes from "./InputMedicine.module.css";
 import Card from "../../UI/Card";
 import Input from "../../UI/Input";

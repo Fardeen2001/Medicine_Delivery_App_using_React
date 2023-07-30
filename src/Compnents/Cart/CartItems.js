@@ -1,4 +1,4 @@
-import classes from "./CartItem.module.css";
+import classes from "./CartItems.module.css";
 
 const CartItem = (props) => {
   const price = `Rs ${props.price}`;
